@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace ClassLibrary
+namespace ClassLibraryDPRigoli
 {
-    public class MyPackage
+    public class ClassLibrary
     {
-        public void DisplayTest(string text)
+        public void DisplayText(string text)
         {
             Console.WriteLine(text);
         }
@@ -13,5 +13,6 @@ namespace ClassLibrary
         {
             Console.WriteLine(DateTime.Now.ToShortDateString());
         }
+
     }
 }
