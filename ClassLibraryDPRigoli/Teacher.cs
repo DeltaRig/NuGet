@@ -1,0 +1,38 @@
+﻿struct Teacher
+{
+
+    private string _name;
+    private string _class;
+    private string _section;
+
+    public Teacher( string name, string c, string section)
+    {
+        _name = name;
+        _class = c;
+        _section = section;
+
+    }
+
+    public string GetToString()
+    {
+        return " Name:" + _name + "; Class:" + _class + "; Section:" + _section + ";";
+    }
+
+    public string Name
+    {
+        get => _name;
+        set => _name = value;
+    }
+
+    public string Class
+    {
+        get => _class;
+        set => _class = value;
+    }
+
+    public string Section
+    {
+        get => _section;
+        set => _section = value;
+    }
+}
