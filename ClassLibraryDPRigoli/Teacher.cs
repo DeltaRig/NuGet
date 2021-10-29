@@ -13,7 +13,8 @@
 
     }
 
-    public string GetToString()
+    override
+    public string ToString()
     {
         return " Name:" + _name + "; Class:" + _class + "; Section:" + _section + ";";
     }
