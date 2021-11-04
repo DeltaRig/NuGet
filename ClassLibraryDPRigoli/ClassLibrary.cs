@@ -4,14 +4,16 @@ namespace ClassLibraryDPRigoli
 {
     public class ClassLibrary
     {
-        public void DisplayText(string text)
+        public void StartMenu()
         {
-            Console.WriteLine(text);
-        }
+            Menu menu = new Menu();
 
-        public void DisplayDate()
-        {
-            Console.WriteLine(DateTime.Now.ToShortDateString());
+            string option = "";
+
+            do
+            {
+                option = menu.ShowMenu();
+            } while (!option.Equals("0"));
         }
 
     }

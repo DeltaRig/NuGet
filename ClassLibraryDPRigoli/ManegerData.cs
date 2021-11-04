@@ -46,7 +46,7 @@ namespace ClassLibraryDPRigoli
             students.Add(t);
         }
 
-        public void AddStudent(string code, string name)
+        public void AddSubject(string code, string name)
         {
             Subject t = new Subject(code, name);
             subjects.Add(t);

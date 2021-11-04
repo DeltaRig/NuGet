@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 using Newtonsoft.Json.Linq;
+using ClassLibraryDPRigoli;
 
 namespace NuGet
 {
@@ -22,6 +24,7 @@ namespace NuGet
             Console.WriteLine(json);
 
             Console.ReadLine(); // just to dont close the program
+            ClassLibrary();
         }
     }
 }
